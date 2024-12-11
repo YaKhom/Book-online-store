@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../../dist/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">Bookshop</a>
+        <nav class="navigation">
+          <ul class="list">
+            <li class="item active-item">
+              <a href="#" class="link">Books</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Audiobooks</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Stationery & gifts</a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="tools">
+          <button class="user">
+            <img src="../images/icons/user.svg" alt="" class="icon-user icon" />
+          </button>
+          <button class="search">
+            <img
+              src="../images/icons/search.svg"
+              alt=""
+              class="icon-search icon" />
+          </button>
+          <button class="shopbag">
+            <img
+              src="../images/icons/shopbag.svg"
+              alt=""
+              class="icon-shopbag icon" />
+            <span class="quantity"></span>
+          </button>
+        </div>
+        <button class="burger"></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="../images/slider/banner-1.svg"
+                class="slide"
+                alt="Slide 1" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="../images/slider/banner-2.svg"
+                class="slide"
+                alt="Slide 2" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="../images/slider/banner-3.svg"
+                class="slide"
+                alt="Slide 3" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="stiker sticker-1">
+          <a href="#" class="link"
+            >Change old book on new
+            <img src="../images/icons/arrow.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="stiker sticker-2">
+          <a href="#" class="link"
+            >Top 100 books 2022
+            <img src="../images/icons/arrow.svg" alt="" />
+          </a>
+        </div>
+      </section>
+
+      <section class="catalog">
+        <article class="categories">
+          <ul class="list">
+            <li>
+              <button class="button-category active-category">
+                Architecture
+              </button>
+            </li>
+            <li><button class="button-category">Art & Fashion</button></li>
+            <li><button class="button-category">Biography</button></li>
+            <li><button class="button-category">Business</button></li>
+            <li><button class="button-category">Crafts & Hobbies</button></li>
+            <li><button class="button-category">Drama</button></li>
+            <li><button class="button-category">Fiction</button></li>
+            <li><button class="button-category">Food & Drink</button></li>
+            <li><button class="button-category">Health & Wellbeing</button></li>
+            <li><button class="button-category">History & Politics</button></li>
+            <li><button class="button-category">Humor</button></li>
+            <li><button class="button-category">Poetry</button></li>
+            <li><button class="button-category">Psychology</button></li>
+            <li><button class="button-category">Science</button></li>
+            <li><button class="button-category">Technology</button></li>
+            <li><button class="button-category">Travel & Maps</button></li>
+          </ul>
+        </article>
+
+        <div class="show">
+          <article class="books"></article>
+          <button class="button-load">Load more</button>
+        </div>
+      </section>
+    </main>
+    <script src="../../dist/main.js"></script>
+  </body>
+</html>
